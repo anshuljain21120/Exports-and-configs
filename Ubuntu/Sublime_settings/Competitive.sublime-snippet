@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h> 
+using namespace std;
+
+#include "Private/macros.h" 
+ 
+int main() 
+{ 
+   fastIO;
+   
+   lli ${1:i=0}; 
+   
+   
+   showExecTime;
+   return 0; 
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>competitive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.cpp</scope> -->
+</snippet>
