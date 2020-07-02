@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme]
+"Icon"="powercpl.dll"
+"MUIVerb"="Switch Power Plan"
+"Position"="Bottom"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell]
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Balanced]
+"MUIVerb"="Balanced"
+"Icon"="powercpl.dll"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Balanced\Command]
+@="powercfg.exe /s 381b4222-f694-41f0-9685-ff5bb260df2e"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Gaming Plan]
+"MUIVerb"="Gaming Plan"
+"Icon"="powercpl.dll"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Gaming Plan\Command]
+@="powercfg.exe /s befc648b-a2d1-4d09-a795-810d81123111"
