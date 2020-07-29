@@ -1,0 +1,26 @@
+1. Open this link and download the zip file IN your Downloads folder: 
+>> https://get.popcorntime.app/repo/build/Popcorn-Time-0.4.4-linux64.zip
+
+2. Run these commands one by one
+sudo apt update && sudo apt install libcanberra-gtk-module libgconf-2-4 libatomic1
+sudo mkdir /opt/popcorntime
+cd ~/Downloads
+sudo unzip Popcorn-Time-0.4.4-linux64.zip -d /opt/popcorntime/
+sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
+
+3. Now run this commmand: sudo nano /usr/share/applications/popcorntime.desktop
+
+4. And insert below lines as it is:
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Popcorn Time
+Exec = /usr/bin/Popcorn-Time
+Icon = /opt/popcorntime/popcorn.png
+Categories = Application;
+
+5. Press ctrl+O then enter to save file, and ctrl+x to quit nano.
+
+6. Atlast run this command
+sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
