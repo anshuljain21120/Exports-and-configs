@@ -25,6 +25,9 @@ Categories = Application;
 6. Atlast run this command
 sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
 
-7. If incase that it keeps stuttering in online streaming, then open a terminal and run this 
+<<<<<< For configuring InBuilt Popcorn Time player >>>>>>
+A. If incase that it keeps stuttering in online streaming, then open a terminal and run this 
 sudo chown -R root:root /opt/popcorntime
-(NOTE: This issue arises when parent folder has root access but its subfolders isn't, and hence solved by giving all its subdirectories root permissions.)
+(Reason: This issue arises when parent folder has root access but its subfolders isn't, and hence solved by giving all its subdirectories root permissions.)
+
+B. To add subtitle facility enter login details of opensubtitle.org in settings.
