@@ -34,9 +34,6 @@ Atlast, to confirm if CUDA setup is successfull in Anaconda run ```conda activat
   ```for e in `conda env list | awk '$1 !="#"'| awk '{print $1}'`; do conda update -n $e --all -y; done```
   in terminal.
 
----------------------------
-## GNU Terminal theme profile 
-1. Read How to Import/Export terminal theme profile [here](https://gist.github.com/reavon/0bbe99150810baa5623e5f601aa93afc). 
 
 ----------------------------
 ## Dash to Panel 
