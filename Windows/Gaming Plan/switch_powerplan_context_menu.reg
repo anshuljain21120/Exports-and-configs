@@ -1,23 +1,31 @@
 Windows Registry Editor Version 5.00
 
+; This will create a container like structure to hold our menus
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme]
 "Icon"="powercpl.dll"
 "MUIVerb"="Switch Power Plan"
 "Position"="Bottom"
 "SubCommands"=""
 
+; Moving into the container
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell]
 
+; For Balanced Power Plan 
+; This defines how button will look
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Balanced]
 "MUIVerb"="Balanced"
 "Icon"="powercpl.dll"
 
+; This defines what button will do on click
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Balanced\Command]
 @="powercfg.exe /s 381b4222-f694-41f0-9685-ff5bb260df2e"
 
+; Similarly for Gaming plan
+; This defines how button will look
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Gaming Plan]
 "MUIVerb"="Gaming Plan"
 "Icon"="powercpl.dll"
 
+; This defines what button will do on click
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\SwitchPowerScheme\Shell\Gaming Plan\Command]
 @="powercfg.exe /s befc648b-a2d1-4d09-a795-810d81123111"
