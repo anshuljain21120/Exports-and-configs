@@ -7,7 +7,7 @@ Active Terminal           |  Inactive Terminal
 
 ---------------------------
 ## GNU Terminal Theme Profiles
-#### [[source]((https://gist.github.com/reavon/0bbe99150810baa5623e5f601aa93afc))] 
+#### [[source](https://gist.github.com/reavon/0bbe99150810baa5623e5f601aa93afc)]
 
 * To List all profiles type: ```dconf dump /org/gnome/terminal/legacy/profiles:/```
 
