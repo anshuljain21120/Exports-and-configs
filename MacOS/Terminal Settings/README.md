@@ -3,7 +3,7 @@ These settings make terminal look like as shown:
 
 Active Terminal           |  Inactive Terminal
 :-------------------------:|:-------------------------:
-![Active Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Theme/Terminal%20-%20Active.png)  |  ![Inactive Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Theme/Terminal%20-%20Inactive.png)
+![Active Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Active.png)  |  ![Inactive Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Inactive.png)
 
 --------------------
 
@@ -16,7 +16,7 @@ Active Terminal           |  Inactive Terminal
 >  * Although it hardly matters but if you want to use an updated Bash then follow along [this.](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba)
 
 ## Set Color Theme
-For this simply download the [Basic.terminal File](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Theme/Basic.terminal). Then either import it in *Profiles* Tab in terminal preferences of OSX or simply double click it.
+For this simply download the [Basic.terminal File](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Basic.terminal). Then either import it in *Profiles* Tab in terminal preferences of OSX or simply double click it.
 
 ## Set Prompt
 For setting a prompt like shown above write ```export PS1="\[\e[38;5;166m\]\[\e[1m\]\u@\h\[\e[00m\]:\[\e[38;05;174m\]\w\[\e[00m\]\$ "``` in:
