@@ -20,7 +20,7 @@ For this simply download the [Basic.terminal File](https://github.com/anshuljain
 
 ## Set Prompt
 For setting a prompt like shown above write ```export PS1="\[\e[38;5;166m\]\[\e[1m\]\u@\h\[\e[00m\]:\[\e[38;05;174m\]\w\[\e[00m\]\$ "``` in:
-* **(Recommended)** Either in `.bash_profile` file present in your Home directory.
+* Either in `.bash_profile` file present in your Home directory. **(Recommended)**
 * Or in Terminal Preferences > Profiles Tab > Shell > Beside **Run Command** option after ticking on it. Also check Run inside shell option.
 
 If you want a custom prompt, then design your custom type from [here](https://www.ibm.com/developerworks/linux/library/l-tip-prompt/) or [here.](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
