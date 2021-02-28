@@ -32,7 +32,7 @@ Exec = /usr/bin/Popcorn-Time
 Icon = /opt/popcorntime/popcorn.png
 Categories = Application;
 ```
-4. Press ctrl+O then enter to save file, and ctrl+x to quit nano.
+4. Press <kbd>Ctrl</kbd>+<kbd>O</kbd> then enter to save file, and <kbd>Ctrl</kbd>+<kbd>X</kbd> to quit nano.
 
 5. Atlast run this command
 sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
