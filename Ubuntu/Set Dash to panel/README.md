@@ -8,7 +8,7 @@ Dashtopanel-Original		|
 
 Dashtopanel-Lambda Theme		|
 :-------------------------:|
-![Dashtopanel-Lambda Theme](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Inactive.png)
+![Dashtopanel-Lambda Theme](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Dash%20to%20panel/Dashtopanel%20-%20lambda%20theme.png)
 
 
 ----------------------------
@@ -21,7 +21,8 @@ Dashtopanel-Lambda Theme		|
 
 2. Then install Dash to Panel from [here.](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
+
 > To apply my Lambda-theme settings:
-	1. Right click on the panel and go to dash to panel settings.
-	2. Navigate to About section
-	3. Choose Import from a file and select the DashToPanel_LambdaTheme file given here.
+>	1. Right click on the panel and go to dash to panel settings.
+>	2. Navigate to About section
+>	3. Choose Import from a file and select the DashToPanel_LambdaTheme file given here.
