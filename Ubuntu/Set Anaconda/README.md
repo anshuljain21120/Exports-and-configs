@@ -5,8 +5,8 @@ This guide will help you to create and maintain CUDA compatible Conda environmen
 --------------------------
 ## Setting Anaconda 
 * The ```Set_anaconda.sh``` shell script can be run instantly after executing __Anaconda bash installation script__ (which can be found [here](https://docs.anaconda.com/anaconda/install/linux/) or [here](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)) to setup Deep Learning library supported environments with CUDA support however it requires these two things: 
-1. It requires Ubuntu version greater than 16.04. To update ubuntu version on a desktop see [this README.]()
-2. It requires that NVIDIA drivers are installed successfully in the system. To check if NVIDIA drivers are installed and are using their latest version see [this README.]()     
+1. It requires Ubuntu version greater than 16.04. To update ubuntu version on a desktop see [this README.](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/README.md)
+2. It requires that NVIDIA drivers are installed successfully in the system. To check if NVIDIA drivers are installed and are using their latest version see [this README.](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/README.md)     
 3. Atlast, to confirm if CUDA setup is successfull in Anaconda run ```conda activate base && numba -s``` 
 
 ### Managing Environments
