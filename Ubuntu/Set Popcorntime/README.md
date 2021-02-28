@@ -1,12 +1,12 @@
 # Ubuntu-Configs/Popcorntime
+[About](https://en.wikipedia.org/wiki/Popcorn_Time)		|		[Official Website](https://popcorntime.app/)		|		[Source Code](https://github.com/popcorn-official)
 
 Popcorn Time streams movies and TV shows from torrents.
 
 Popcorntime-dashboard           |  Popcorntime-itempage
 :-------------------------:|:-------------------------:
-![Popcorntime-dashboard](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Active.png)  |  ![Popcorntime-itempage](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Inactive.png)
+![Popcorntime-dashboard](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Popcorntime/Popcorntime-dashboard.png)  |  ![Popcorntime-itempage](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Popcorntime/Popcorntime-itempage.png)
 
-[About](https://en.wikipedia.org/wiki/Popcorn_Time)		|		[Official Website](https://popcorntime.app/)		|		[Source Code](https://github.com/popcorn-official)
 
 --------------------------
 
@@ -37,8 +37,7 @@ Categories = Application;
 5. Atlast run this command
 sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
 
-> <<<<<< For configuring InBuilt Popcorn Time player >>>>>>
-> A. If incase that it keeps stuttering in online streaming, then open a terminal and run `sudo chown -R root:root /opt/popcorntime` 
-> (Reason: This issue arises when parent folder has root access but its subfolders isn't, and hence solved by giving all its subdirectories root permissions.)
-> 
-> B. To add subtitle facility enter login details of opensubtitle.org in settings.
+## Configuring the player
+* If incase that it keeps stuttering in online streaming, then open a terminal and run `sudo chown -R root:root /opt/popcorntime` 
+(Reason: This issue arises when parent folder has root access but its subfolders isn't, and hence solved by giving all its subdirectories root permissions.)
+* To add subtitle facility enter login details of opensubtitle.org in settings.
