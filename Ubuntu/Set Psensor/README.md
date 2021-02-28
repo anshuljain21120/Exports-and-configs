@@ -2,9 +2,9 @@
 
 psensor is a graphical hardware temperature monitor for Linux.
 
-Psensor-Graph
-:-------------------------:|
-![Psensor-Graph](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Psensor/Psensor-graphs.png) |
+Psensor-Graph   | Psensor-Dropdown
+:-------------------------:|:-------------------------:
+![Psensor-Graph](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Psensor/Psensor-graphs.png) | ![Psensor-Dropdown](https://github.com/anshuljain21120/Exports-and-configs/blob/add-psensor-config/Ubuntu/Set%20Psensor/Psensor-dropdown.png)
 --------------------------
 #### [[source](https://wpitchoune.net/psensor/)]
 
