@@ -12,7 +12,7 @@ Creating/updating a system profile that manages power limits of the system. Gami
 		* Run `powercfg -import "The full path to .pow file"`, like for ex: `powercfg -import "%UserProfile%\Downloads\PowerPlan.pow"`
 
 ## Adding Option To Switch Power Plans Quickly Via Desktop Right-click Menu
-* Open cmd anywhere and type: `powercfg \L`, it will show you the list of all power plans with their unique GUIDs. We need the GUIDs so keep this open. 
+* Open cmd anywhere and type: `powercfg /L`, it will show you the list of all power plans with their unique GUIDs. We need the GUIDs so keep this open. 
 * Next, open switch_powerplan_context_menu.reg in a text editor and replace GUIDs of all the respective power plans you want to add to menu, with what is there in the cmd. (I guess Seeing those pattern you can now build one too in .reg file.)
 * Now save this file, close the text editor and double click the switch_powerplan_context_menu.reg file to run and add it into registry. Click Yes/okay on all the prompts that pops as there is a way we can change this completely back to normal and this is not going to harm your computer.
 
