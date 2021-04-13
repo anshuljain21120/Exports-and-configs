@@ -16,7 +16,7 @@ This guide will help you to create and maintain CUDA compatible Conda environmen
 ---------------------------
 ### Extras
 * To load some default setups whenever you start a Jupyter notebook you can create your customised "profile(s)" for Ipython. With profiles you can pre-cook a lot of setups like:
-  * Setting a profile which automatically does `import * ` from **numpy**, **pandas** and **matplotlib**.
+  * Setting a profile which automatically does `import *` from **numpy**, **pandas** and **matplotlib**.
   * Loading magic commands, or not allowing any magic commands.
   * Turning off [Jedi](https://jedi.readthedocs.io/en/latest/) autocomplete for faster autocompletion in Jupyter Notebooks even for large datasets.
   * Avoid manually loading packages like [line_profiler](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html#Line-By-Line-Profiling-with-%lprun) (An awesome profiler which shows how much cpu, memory, and other resources were used in each line, you can use it to optimize code with Numba). 
