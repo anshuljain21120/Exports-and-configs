@@ -1,8 +1,8 @@
 # MacOS-Configs/Set Terminal Keyboard Shortcut
 These steps will allow you to open the Mac terminal from anywhere with just a keyboard shortcut.
+#### [[source](https://stackoverflow.com/a/35954589)] | [[credits: rob-mayoff](https://stackoverflow.com/users/77567/rob-mayoff)]
 
 --------------------
-
 ## Create Automator Document
 * Launch Automator. Create a document of type “Quick Action”(In older versions of macOS, use the “Service” template) :
 ![step_1](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Set%20Terminal%20Keyboard%20Shortcut/step_1.jpg)
