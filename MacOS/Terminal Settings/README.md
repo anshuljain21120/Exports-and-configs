@@ -3,7 +3,7 @@ These settings make terminal look like as shown:
 
 Active Terminal           |  Inactive Terminal
 :-------------------------:|:-------------------------:
-![Active Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Active.png)  |  ![Inactive Terminal](https://github.com/anshuljain21120/Exports-and-configs/blob/master/MacOS/Terminal%20Settings/Terminal%20-%20Inactive.png)
+![Active Terminal](https://github.com/anshuljain21120/Exports-and-configs/raw/master/MacOS/Terminal%20Settings/Terminal%20-%20Active.png)  |  ![Inactive Terminal](https://github.com/anshuljain21120/Exports-and-configs/raw/master/MacOS/Terminal%20Settings/Terminal%20-%20Inactive.png)
 
 --------------------
 
