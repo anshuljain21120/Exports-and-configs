@@ -7,7 +7,7 @@ Creating/updating a system profile that manages power limits of the system. Gami
 * Creating a new plan can
 	* either be made manually using GUI here: settings->System->Power & Sleep->Additional Power settings->Create a Power Plan
 	* or, using a file. For this:
-		* Download this file
+		* Download [this file](./PowerPlan.pow)
 		* Open a cmd with administer privileges
 		* Run `powercfg -import "The full path to .pow file"`, like for ex: `powercfg -import "%UserProfile%\Downloads\PowerPlan.pow"`
 
