@@ -1,4 +1,4 @@
-# Windows/Windows Subsystem for Linux
+# Windows/Windows Subsystem for Linux [How to Install]
 
 Windows Subsystem for Linux (WSL) is a feature of Windows that allows developers to run a Linux environment without the need for a separate virtual machine or dual booting. There are two versions of WSL: WSL 1 and WSL 2(Latest).
 This article will guide you on steps to install **WSL2 only**.
